@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 500vh; */
+}
+header{
+padding: 10px;
+background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)) ,url(./images/head\ backg.jpg);
+background-size: contain;
+height: 130vh;
+position: relative;
+}
+nav{
+    display: flex;
+justify-content: space-between;
+padding: 8px;
+}
+.left,
+.right,
+.left-text{
+    display: flex;
+    gap: 0 .8rem;
+}
+.left{
+    margin-left: -.2rem;
+    padding:  6px 0;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+margin: 0 1rem;
+}
+.logo svg{
+    margin-top: -.4rem;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+}
+.left svg{
+margin-left: .5rem;
+}
+.right input{
+    height: 30px;
+    width: 200px;
+    background: transparent;
+    border: 1.5px solid white;
+    padding: 4px 20px;
+    
+    border-radius: 7px;
+}
+.start-w{
+    background: #FF6719;
+    height: 33px;
+    line-height: 33px;
+    padding: 4px 20px;
+    border-radius: 7px;
+
+
+}
+.signin{
+    height: 30px;
+    line-height: 30px;
+    border: 1.5px solid white;
+    padding: 4px 20px;
+    border-radius: 7px;
+}
+.hero{
+    position: absolute;
+    color: white;
+    left: 28%;
+    top: 35%;
+    
+}
+.text{
+    font-size: 70px;
+}
+.buttons{
+    text-align: center;
+    padding: 10px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    padding:  15px 25px;
+    margin: .5rem .6rem;
+    background: transparent;
+}
+.but-one{
+    border: none;
+    padding: 17px 57px;
+    background: #FF6719;
+    border-radius: 7px;
+}
+.but-two{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.drop{
+    position: absolute;
+    bottom: 2rem;
+    left: 48%;
+}
+.section-one h1{
+    font-size: 55px;
+    position: relative;
+    text-align: center;
+    margin: 6rem;
+    margin-bottom: 2rem;
+}
+
+.categories-section::-webkit-scrollbar{
+    visibility: hidden;
+}
+.categories-section{
+    overflow: scroll;
+    position: absolute;
+    width: 88%;
+    left: 6%;
+}
+
+.categories{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+
+}
+.categories li{
+list-style: none;
+padding: 20px 10px;
+margin: 0 .5rem;
+text-wrap: none;
+white-space: nowrap;
+}
+.categories a{
+    text-decoration: none;
+    color: gray;
+}
+.categories a:hover{
+    background: lightgray;
+}
+.categories a:focus-within{
+    border-bottom: 2px solid #FF6719;
+    color: #FF6719;
+
+}
+.stuffs{
+    position: relative;
+    height: 100vh;
+    z-index: -1;
+    padding-top: 6rem;
+}
+.line{
+    /* background: red; */
+
+}
+
+.number,
+picture,
+.intro-name,
+.parag{
+    float: left;
+    margin: 0 3rem;
+}
+
+.intro-name{
+    /* background: blue; */
+    width: 25%;
+    margin-left: -1rem;
+}
+picture img{
+    height: 70px;
+    border-radius: 10px
+}
+.number{
+    height: 80px;
+    width: 20px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 80px;
+/* background: yellow; */
+transform: translateX(30px);
+margin-right: 0;
+}
+.intro-name{
+    height: 80px;
+    font-size: 24px;
+}
+.parag{
+    font-size: 17px;
+}
+.line{
+    margin-bottom: 2rem;
+    height: 90px;
+}
+
