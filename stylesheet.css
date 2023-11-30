@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Cahuenga';
+    src: url('Cahuenga-Regular.woff2') format('woff2'),
+        url('Cahuenga-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cahuenga';
+    src: url('CahuengaSemiBold-Regular.woff2') format('woff2'),
+        url('CahuengaSemiBold-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cahuenga';
+    src: url('Cahuenga-Italic.woff2') format('woff2'),
+        url('Cahuenga-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
