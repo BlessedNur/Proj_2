@@ -2,6 +2,13 @@
     margin: 0;
    padding: 0;
 }
+/* .center{
+    margin: 0 auto;
+    max-width: 1500px;
+} */
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     color: #404040;
@@ -321,7 +328,8 @@ picture img {
     line-height: 80px;
     color: rgb(231, 229, 229);
     /* background: yellow; */
-    font-family: 'system2';
+    font-family: 'system1';
+    font-weight: 900;
     transform: translateX(30px);
     margin-right: 0;
     margin-left: 1rem;
@@ -370,7 +378,7 @@ picture img {
     border-radius: 10px;
     font-family: 'system';
     font-weight: 900;
-    font-size: 17px;
+    font-size: 16px;
 }
 .see a{
     text-decoration: none;
@@ -529,6 +537,7 @@ padding-right: 3em;
 .m-right p,
 .m-right span{
     margin-bottom: .4em;
+    cursor: pointer;
 }
 .m-right p,
 .m-right span{
@@ -771,6 +780,7 @@ small{
     top: 2.5em;
     visibility: hidden;
     transition-delay: .1s;
+    /* overflow: hidden; */
 }
 .pop2{
     width: 280%;
